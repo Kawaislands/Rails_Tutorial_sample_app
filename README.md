@@ -41,8 +41,4 @@ $ rails server
 ```
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
-<<<<<<< HEAD
 を参考にしてください。
-=======
-を参考にしてください。
->>>>>>> 8e146efe6f0d0811b1b4ccac27fdb75a4a3d7af8
