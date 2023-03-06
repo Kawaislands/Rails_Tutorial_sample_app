@@ -14,6 +14,7 @@ class UsersController < ApplicationController
     # POST /users + (params)
     @user = User.new(user_params)
     if @user.save
+      log_in @user
       flash[:success] = "Welcome to the Sample App!"
       # GET "/users/#{@user.id}"
       redirect_to @user
